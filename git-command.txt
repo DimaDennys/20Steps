@@ -1,0 +1,114 @@
+   89  git config --global
+   90  got config 
+   91  git config
+   92  git config global
+   93  git config --global
+   94  git config --global user.name
+   95  git config --global user.name DimaDennys
+   96  git config --global email.name DimaDennys
+   97  git config --global
+   98  git config --global email.name dumitrudenisiuc@gmail.com
+   99  git config --global
+  100  git config --global email.name
+  101  git config --global user.name
+  102  git config --list
+  103  ls
+  104  cd Desktop/
+  105  cd JS/
+  106  echo "# 20 Steps" >> README.md
+  107  git init
+  108  git add README.md 
+  109  git commit -m "first commit"
+  110  git config --list
+  111  git config --list --show.origin
+  112  git config --list --show-origin
+  113  git config --global user.name
+  114  git status
+  115  git config --global color.status.header "black normal bold"
+  116  git config --global color.status.added "green normal bold"
+  117  git config --global color.status.updated "green normal bold"
+  118  git config --global color.status.changed "yellow normal bold"
+  119  git config --global color.status.untracked "cyan normal bold"
+  120  git config --global color.status.branch "magenta normal bold"
+  121  git config --global color.status.nobranch "normal normal bold"
+  122  git config --global color.status.unmerged "red normal bold"
+  123  git status
+  124  git config --global color.status.header "white normal bold"
+  125  git status
+  126  git config --global color.status.header "white normal"
+  127  git status
+  128  git add .
+  129  git commit -m "first commit"
+  130  git config user.email "dumitrudenisiuc@gmail.com"
+  131  git config user.name "DimaDennys"
+  132  git config --list
+  133  git commit -m "first commit"
+  134  git remote add origin git@github.com:DimaDennys/20Steps.git
+  135  git push -u origin master
+  136  ssh -T git@github.com
+  137  ls -al ~/.ssh
+  138  ls -al ~/.ssh/known_hosts 
+  139  ssh-keygen -t rsa -b 4096 -C "dumitrudenisiuc@gmail.com"
+  140  eval "$(ssh-agent -s)"
+  141  ssh-add ~/.ssh/id_rsa
+  142  sudo apt-get install xclip
+  143  xclip -sel clip < ~/.ssh/id_rsa.pub
+  144  git push -u origin master
+  145  history >> git-command.txt
+   90  got config 
+   91  git config
+   92  git config global
+   93  git config --global
+   94  git config --global user.name
+   95  git config --global user.name DimaDennys
+   96  git config --global email.name DimaDennys
+   97  git config --global
+   98  git config --global email.name dumitrudenisiuc@gmail.com
+   99  git config --global
+  100  git config --global email.name
+  101  git config --global user.name
+  102  git config --list
+  103  ls
+  104  cd Desktop/
+  105  cd JS/
+  106  echo "# 20 Steps" >> README.md
+  107  git init
+  108  git add README.md 
+  109  git commit -m "first commit"
+  110  git config --list
+  111  git config --list --show.origin
+  112  git config --list --show-origin
+  113  git config --global user.name
+  114  git status
+  115  git config --global color.status.header "black normal bold"
+  116  git config --global color.status.added "green normal bold"
+  117  git config --global color.status.updated "green normal bold"
+  118  git config --global color.status.changed "yellow normal bold"
+  119  git config --global color.status.untracked "cyan normal bold"
+  120  git config --global color.status.branch "magenta normal bold"
+  121  git config --global color.status.nobranch "normal normal bold"
+  122  git config --global color.status.unmerged "red normal bold"
+  123  git status
+  124  git config --global color.status.header "white normal bold"
+  125  git status
+  126  git config --global color.status.header "white normal"
+  127  git status
+  128  git add .
+  129  git commit -m "first commit"
+  130  git config user.email "dumitrudenisiuc@gmail.com"
+  131  git config user.name "DimaDennys"
+  132  git config --list
+  133  git commit -m "first commit"
+  134  git remote add origin git@github.com:DimaDennys/20Steps.git
+  135  git push -u origin master
+  136  ssh -T git@github.com
+  137  ls -al ~/.ssh
+  138  ls -al ~/.ssh/known_hosts 
+  139  ssh-keygen -t rsa -b 4096 -C "dumitrudenisiuc@gmail.com"
+  140  eval "$(ssh-agent -s)"
+  141  ssh-add ~/.ssh/id_rsa
+  142  sudo apt-get install xclip
+  143  xclip -sel clip < ~/.ssh/id_rsa.pub
+  144  git push -u origin master
+  145* history 
+  146  history 57 >> git-command.txt
